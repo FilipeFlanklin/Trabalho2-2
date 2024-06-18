@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biblioteca</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Biblioteca</h1>
+        <nav>
+            <ul>
+                <li><a href="./Inicio.html"><u>Início</u></a></li>
+                <li><a href="./Cadastro.html">Cadastro</a></li>
+                <input type="text" placeholder="Nome do livro" id="Procurartxt">
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="content">
+            <h2>Livros</h2>
+            <div id="Cartao" class="grid">
+               <script> getLivros() </script>
+            </div>
+        </section>
+    </main>
+    <footer></footer>
+</body>
+</html>
